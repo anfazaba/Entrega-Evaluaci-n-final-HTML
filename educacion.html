@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href="img/logoNombre.svg"></image>
+      </svg>
+      <h1>Hoja de vida</h1>
+      <h2>Andres Fabian Zapata Ballesteros</h2>
+      <h3>Fecha: 8-jun-1989. Lugar: Puerto Wilches</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article>
+        <h2>Educación</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2016</td>
+              <td>Certificación en SCRUM Master</td>
+              <td>Bogotá</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>2014</td>
+              <td>Universidad Distrital Francisco José de Caldas</td>
+              <td>Bogotá</td>
+              <td>Sí</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>Instituto Nacional de Educación Media Diversificada</td>
+              <td>Bogotá</td>
+              <td>Sí</td>
+            </tr>
+          </tbody>
+        </table>
+        <form>
+          <h2>Agregar Estudios</h2>
+          <label for="comboBox">Año:</label><select id="comboBox">
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+          </select></br></br>
+          <label for="intitucion">Institución:</label><input id="institucion" type="text" required></br></br>
+          <label for="lugar">Lugar:</label><textarea name="lugar" rows="2" cols="80">
+          </textarea></br></br>
+          <input type="button" value="Enviar">
+        </form>
+      </article>
+    </section>
+    <footer><p>Correo electrónico: afzb@hotmail.com | Teléfono: 555-555555 | Facebook: /azapatin</p></footer>
+  </body>
+</html>
